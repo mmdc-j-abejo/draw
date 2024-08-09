@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="Saving Time In Process" id="P-51vmOhXgr0RfcmmDRY">
-    <mxGraphModel dx="1626" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BHsc6KDEoT2bgwKyZ10p-1" target="BHsc6KDEoT2bgwKyZ10p-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-1" value="Set Time In Clicked" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;" edge="1" parent="1" source="BHsc6KDEoT2bgwKyZ10p-2" target="BHsc6KDEoT2bgwKyZ10p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-2" value="&lt;div&gt;&lt;i&gt;What occurs behind the scenes when the &quot;Set Time&quot; action is triggered?&lt;/i&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BHsc6KDEoT2bgwKyZ10p-4" target="BHsc6KDEoT2bgwKyZ10p-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-8" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BHsc6KDEoT2bgwKyZ10p-7">
+          <mxGeometry x="-0.1861" y="1" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BHsc6KDEoT2bgwKyZ10p-4" target="BHsc6KDEoT2bgwKyZ10p-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-19" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BHsc6KDEoT2bgwKyZ10p-18">
+          <mxGeometry x="-0.094" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-4" value="Do I have time in today?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="878" y="187.5" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-6" value="Save Timesheet" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070.5" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BHsc6KDEoT2bgwKyZ10p-9" target="BHsc6KDEoT2bgwKyZ10p-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-11" value="getSingleResult()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BHsc6KDEoT2bgwKyZ10p-10">
+          <mxGeometry x="-0.2412" relative="1" as="geometry">
+            <mxPoint x="9" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-9" value="payroll_sys.timesheet" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="206.25" width="140" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BHsc6KDEoT2bgwKyZ10p-12" target="BHsc6KDEoT2bgwKyZ10p-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-16" value="Insert values to query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BHsc6KDEoT2bgwKyZ10p-14">
+          <mxGeometry x="-0.3082" relative="1" as="geometry">
+            <mxPoint x="19" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-12" value="Employee Id&lt;div&gt;Current Date&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="358" y="200" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BHsc6KDEoT2bgwKyZ10p-17" value="Display You have already time in today." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="875.5" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
