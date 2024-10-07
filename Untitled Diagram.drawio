@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17" pages="3">
   <diagram name="Saving Time In Process" id="P-51vmOhXgr0RfcmmDRY">
     <mxGraphModel dx="1386" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -144,6 +144,70 @@
         </mxCell>
         <mxCell id="6oljrVZlJ5XKs1E_ABRp-17" value="Display You have already time in today." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="875.5" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dRwVfwhmV2bAMb4zb-pY" name="Loops 2.0">
+    <mxGraphModel dx="792" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U4wxYr2alNkDDi-W7u1i-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="220.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U4wxYr2alNkDDi-W7u1i-4" target="U4wxYr2alNkDDi-W7u1i-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-4" value="a = 0&lt;div&gt;b = 2&lt;/div&gt;&lt;div&gt;n = 10&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U4wxYr2alNkDDi-W7u1i-5" target="U4wxYr2alNkDDi-W7u1i-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-5" value="Iterate the entire n" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U4wxYr2alNkDDi-W7u1i-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U4wxYr2alNkDDi-W7u1i-10">
+          <mxGeometry x="-0.2148" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U4wxYr2alNkDDi-W7u1i-19" target="U4wxYr2alNkDDi-W7u1i-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-7" value="If n == 10" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-11" value="Display the output" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-13" value="Assign new value to our array[n]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U4wxYr2alNkDDi-W7u1i-7" target="U4wxYr2alNkDDi-W7u1i-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="530" as="sourcePoint" />
+            <mxPoint x="780" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-21" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U4wxYr2alNkDDi-W7u1i-20">
+          <mxGeometry x="-0.1252" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4wxYr2alNkDDi-W7u1i-19" value="Sum the array&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
