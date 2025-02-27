@@ -227,7 +227,7 @@
         <mxCell id="jfjeC_XJrHExVvDUodB2-15" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_account;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="300" width="27.51" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="3nYx03aDLwxbxdVLtdMC-10" value="Region" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#82b366;fillColor=#d5e8d4;verticalAlign=top;align=left;spacingLeft=30;dashed=1;" vertex="1" parent="1">
+        <mxCell id="3nYx03aDLwxbxdVLtdMC-10" value="Region:&amp;nbsp;ap-southeast-1" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#82b366;fillColor=#d5e8d4;verticalAlign=top;align=left;spacingLeft=30;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="110" width="550" height="390" as="geometry" />
         </mxCell>
         <mxCell id="T5NTqcIiXpAgQYmRjw6J-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jfjeC_XJrHExVvDUodB2-17" target="3nYx03aDLwxbxdVLtdMC-1">
