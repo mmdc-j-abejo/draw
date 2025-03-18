@@ -1,9 +1,41 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
   <diagram name="Page-1" id="zt41sZ7iABxrHHXtiylV">
-    <mxGraphModel>
+    <mxGraphModel dx="2437" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="H0j68g-s_HZaMRS5P-wq-1" value="Postman/Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H0j68g-s_HZaMRS5P-wq-2" value="POST /posts/users/create&lt;div&gt;POST Request: Create User&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="160" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H0j68g-s_HZaMRS5P-wq-3" value="GET /posts/users&lt;div&gt;GET Request: User List&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H0j68g-s_HZaMRS5P-wq-4" value="POST /posts/posts/create&lt;div&gt;POST Request: Create Post&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="160" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H0j68g-s_HZaMRS5P-wq-5" value="GET /posts/posts&lt;div&gt;GET Request: Post List&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H0j68g-s_HZaMRS5P-wq-6" value="Response: User List&lt;div&gt;Response: User Created Successfully&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Response: Post List&lt;/div&gt;&lt;div&gt;Response: Post Created Successfully&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="950" y="60" width="370" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="H0j68g-s_HZaMRS5P-wq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H0j68g-s_HZaMRS5P-wq-8" target="H0j68g-s_HZaMRS5P-wq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H0j68g-s_HZaMRS5P-wq-11" value="Retrieve and Store Data&lt;div&gt;via ORM with SQL Queries&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H0j68g-s_HZaMRS5P-wq-10">
+          <mxGeometry x="-0.1553" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H0j68g-s_HZaMRS5P-wq-8" value="Django Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H0j68g-s_HZaMRS5P-wq-9" value="SQLite Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
