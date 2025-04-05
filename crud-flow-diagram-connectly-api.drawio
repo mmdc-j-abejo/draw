@@ -1,49 +1,155 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1205" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="&lt;div&gt;&lt;a style=&quot;background-color: transparent;&quot; href=&quot;https://drive.google.com/file/d/1ba1yj8i7nNevElmAwJeFMgfzgffmMV53/view?usp=sharing&quot;&gt;User go to&amp;nbsp;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://drive.google.com/file/d/1ba1yj8i7nNevElmAwJeFMgfzgffmMV53/view?usp=sharing&quot;&gt;https://127.0.0.1:8000/accounts/login/&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Note:&amp;nbsp; This one &lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/32390a553fdddb5cb91627e1d196107088e80447/connectly_project/accounts/urls.py#L13&quot;&gt;has ui integration&lt;/a&gt; and &lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/2461e86800dc4b899f0e4c06d2805c2391d48731/connectly_project/posts/views.py#L84-L100&quot;&gt;without ui integration&lt;/a&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="105" y="40" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-6" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIyWlLk6GJQsqaUBKTNV-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.99999999999977" y="-20" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-102" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_X7CinvfT8mSmvI7YNX2-6">
+          <mxGeometry x="-0.1351" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-11" target="_X7CinvfT8mSmvI7YNX2-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-11" value="Enter username&amp;nbsp;&lt;div&gt;and password&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
-          <mxGeometry y="20" relative="1" as="geometry">
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-12" target="_X7CinvfT8mSmvI7YNX2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-16" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_X7CinvfT8mSmvI7YNX2-15">
+          <mxGeometry x="0.0786" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-12" target="_X7CinvfT8mSmvI7YNX2-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-31" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_X7CinvfT8mSmvI7YNX2-30">
+          <mxGeometry x="-0.1577" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-12" value="Verify username and password" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="295" width="100" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="190" width="120" height="40" as="geometry" />
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-14" target="_X7CinvfT8mSmvI7YNX2-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-19" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_X7CinvfT8mSmvI7YNX2-18">
+          <mxGeometry x="-0.3925" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-14" target="_X7CinvfT8mSmvI7YNX2-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-22" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_X7CinvfT8mSmvI7YNX2-21">
+          <mxGeometry x="-0.2327" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-14" value="Is Super User?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="485" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-17" value="Can access&amp;nbsp;&lt;div&gt;http://127.0.0.1:8000/admin&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="135" y="690" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-24" value="Invalid username or password." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-32" value="User can access multiple URL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-114" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_X7CinvfT8mSmvI7YNX2-54">
+          <mxGeometry x="-0.4362" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="290" width="100" height="80" as="geometry" />
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-52" target="_X7CinvfT8mSmvI7YNX2-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="430" width="120" height="40" as="geometry" />
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-113" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_X7CinvfT8mSmvI7YNX2-90">
+          <mxGeometry x="0.0188" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-52" value="&lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/2461e86800dc4b899f0e4c06d2805c2391d48731/connectly_project/posts/urls.py#L21&quot;&gt;Is link&lt;/a&gt;&lt;div&gt;&lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/2461e86800dc4b899f0e4c06d2805c2391d48731/connectly_project/posts/urls.py#L21&quot;&gt;http://127.0.0.1:8000/posts/&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/2461e86800dc4b899f0e4c06d2805c2391d48731/connectly_project/posts/urls.py#L21&quot;&gt;?&lt;/a&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="442.5" width="190" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-94" value="&lt;div&gt;Users can access specific endpoints only if they are authenticated and have the necessary permissions.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Authentication &amp;amp; User Management&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;protected/&#39;, ProtectedView.as_view(), name=&#39;protected&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;users/&#39;, UserListCreate.as_view(), name=&#39;user-list-create&#39;),&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Post Management&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/&#39;, PostRegularUser.as_view(), name=&#39;post-list&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/&amp;lt;int:pk&amp;gt;/&#39;, PostDetailView.as_view(), name=&#39;post-detail&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/public/&#39;, PublicPosts.as_view(), name=&#39;public-posts&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/private/&#39;, PrivatePosts.as_view(), name=&#39;private-posts&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/create/&#39;, CreatePostView.as_view(), name=&#39;create_post&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/edit/&amp;lt;int:post_id&amp;gt;/&#39;, EditPostView.as_view(), name=&#39;edit_post&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/delete/&amp;lt;int:post_id&amp;gt;/&#39;, DeletePostView.as_view(), name=&#39;delete_post&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/my-posts/&#39;, MyPostsView.as_view(), name=&#39;my_posts&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/feed/&#39;, NewsFeedView.as_view(), name=&#39;news-feed&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/feed/latest/&#39;, LatestPostsView.as_view(), name=&#39;latest_posts&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/feed/public/&#39;, PublicPostsView.as_view(), name=&#39;public_posts&#39;),&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # User-Specific Post Retrieval&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;user/posts/&#39;, UserPostsView.as_view(), name=&#39;user-posts&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;users/&amp;lt;int:user_id&amp;gt;/posts/&#39;, OtherUserPostsView.as_view(), name=&#39;other-user-posts-by-id&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;users/&amp;lt;str:username&amp;gt;/posts/&#39;, OtherUserPostsView.as_view(), name=&#39;other-user-posts-by-username&#39;),&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Comment Management&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/&amp;lt;int:post_pk&amp;gt;/comments/&#39;, PostCommentsDetails.as_view(), name=&#39;post-comments&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/&amp;lt;int:pk&amp;gt;/comments/create/&#39;, CreateComment.as_view(), name=&#39;create-comment&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/&amp;lt;int:post_id&amp;gt;/comments/&amp;lt;int:comment_id&amp;gt;/delete/&#39;, CommentDeleteView.as_view(), name=&#39;comment-delete&#39;),&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Likes &amp;amp; Engagement&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/&amp;lt;int:post_id&amp;gt;/like/&#39;, LikePostView.as_view(), name=&#39;like_post&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/&amp;lt;int:post_id&amp;gt;/unlike/&#39;, UnlikePostView.as_view(), name=&#39;unlike-post&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/&amp;lt;int:pk&amp;gt;/countlikes/&#39;, CountLikes.as_view(), name=&#39;count-likes&#39;),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; path(&#39;posts/&amp;lt;int:pk&amp;gt;/likedby/&#39;, LikedBy.as_view(), name=&#39;liked-by&#39;),&lt;br&gt;&lt;br&gt;&lt;br&gt;We can further improve this diagram by aligning it more closely with the codebase, but doing so would make it too large. That’s why we consolidated all the URL paths into a single process diagram. Users can execute certain paths depending on their permissions. We’re open to making adjustments and are currently waiting for feedback from the terminal assessment, if needed.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="690" width="790" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-95" value="Page not found" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="900" y="485" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-96" target="_X7CinvfT8mSmvI7YNX2-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-96" value="Start the app via &lt;a href=&quot;https://honcho.readthedocs.io/en/latest/&quot;&gt;honcho &lt;/a&gt;start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="-210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-97" target="_X7CinvfT8mSmvI7YNX2-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-104" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_X7CinvfT8mSmvI7YNX2-103">
+          <mxGeometry x="0.0491" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-97" value="Already have an account?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="-100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="-60.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-101" value="User go to&amp;nbsp;&lt;br&gt;&lt;div&gt;https://127.0.0.1:8000/post/users/&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="-100" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-107" target="_X7CinvfT8mSmvI7YNX2-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-107" value="User enter the following:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/2461e86800dc4b899f0e4c06d2805c2391d48731/connectly_project/posts/views.py#L50-L52&quot;&gt;username,&lt;br&gt;email,&lt;br&gt;password,&lt;/a&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="-100" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-108" target="_X7CinvfT8mSmvI7YNX2-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-108" value="&lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/2461e86800dc4b899f0e4c06d2805c2391d48731/connectly_project/posts/urls.py#L24&quot;&gt;Server registers a new user&lt;/a&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1040" y="-87.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-110" value="&lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/2461e86800dc4b899f0e4c06d2805c2391d48731/connectly_project/posts/views.py#L55&quot;&gt;Is username and password missing?&lt;/a&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1250" y="-126.25" width="160" height="137.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
