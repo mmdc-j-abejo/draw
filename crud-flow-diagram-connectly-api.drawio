@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="507" dy="1491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1724" dy="2253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -133,10 +133,26 @@
         <mxCell id="_X7CinvfT8mSmvI7YNX2-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-108" target="_X7CinvfT8mSmvI7YNX2-110" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_X7CinvfT8mSmvI7YNX2-108" value="&lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/2461e86800dc4b899f0e4c06d2805c2391d48731/connectly_project/posts/urls.py#L24&quot;&gt;Server registers a new user&lt;/a&gt;" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-108" value="Server registers a new user" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1040" y="-87.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_X7CinvfT8mSmvI7YNX2-110" value="&lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/2461e86800dc4b899f0e4c06d2805c2391d48731/connectly_project/posts/views.py#L55&quot;&gt;Is username and password missing?&lt;/a&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="s0mT2lltDAjoIGX7IzYP-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-110" target="s0mT2lltDAjoIGX7IzYP-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s0mT2lltDAjoIGX7IzYP-2" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s0mT2lltDAjoIGX7IzYP-1">
+          <mxGeometry x="-0.2867" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s0mT2lltDAjoIGX7IzYP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_X7CinvfT8mSmvI7YNX2-110" target="s0mT2lltDAjoIGX7IzYP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s0mT2lltDAjoIGX7IzYP-5" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s0mT2lltDAjoIGX7IzYP-4">
+          <mxGeometry x="-0.1995" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_X7CinvfT8mSmvI7YNX2-110" value="&lt;a href=&quot;https://github.com/Jasmin1117/Integrative-Programming-and-Technologies-Act/blob/2461e86800dc4b899f0e4c06d2805c2391d48731/connectly_project/posts/views.py#L55&quot;&gt;Is the username and password missing?&lt;/a&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1250" y="-126.25" width="160" height="137.5" as="geometry" />
         </mxCell>
         <mxCell id="cD0JJt_eKA0-qdBhpxKM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cD0JJt_eKA0-qdBhpxKM-1" target="cD0JJt_eKA0-qdBhpxKM-3" edge="1">
@@ -227,7 +243,7 @@
         <mxCell id="cD0JJt_eKA0-qdBhpxKM-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cD0JJt_eKA0-qdBhpxKM-27" target="cD0JJt_eKA0-qdBhpxKM-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q5yMjNgHKaKBkc9a5iXe-0" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD0JJt_eKA0-qdBhpxKM-92">
+        <mxCell id="Q5yMjNgHKaKBkc9a5iXe-0" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cD0JJt_eKA0-qdBhpxKM-92" vertex="1" connectable="0">
           <mxGeometry x="-0.789" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -445,7 +461,7 @@
         <mxCell id="cD0JJt_eKA0-qdBhpxKM-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cD0JJt_eKA0-qdBhpxKM-91" target="cD0JJt_eKA0-qdBhpxKM-99" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q5yMjNgHKaKBkc9a5iXe-1" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD0JJt_eKA0-qdBhpxKM-100">
+        <mxCell id="Q5yMjNgHKaKBkc9a5iXe-1" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cD0JJt_eKA0-qdBhpxKM-100" vertex="1" connectable="0">
           <mxGeometry x="-0.2502" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -453,7 +469,7 @@
         <mxCell id="cD0JJt_eKA0-qdBhpxKM-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cD0JJt_eKA0-qdBhpxKM-91" target="cD0JJt_eKA0-qdBhpxKM-136" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q5yMjNgHKaKBkc9a5iXe-2" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD0JJt_eKA0-qdBhpxKM-137">
+        <mxCell id="Q5yMjNgHKaKBkc9a5iXe-2" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cD0JJt_eKA0-qdBhpxKM-137" vertex="1" connectable="0">
           <mxGeometry x="-0.168" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -627,6 +643,29 @@
         </mxCell>
         <mxCell id="cD0JJt_eKA0-qdBhpxKM-159" value="Set the cache with timeout 60 seconds" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2361" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s0mT2lltDAjoIGX7IzYP-0" value="Display Username and password are required." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1250" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s0mT2lltDAjoIGX7IzYP-3" value="Display user created&amp;nbsp;&lt;div&gt;successfully.&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1510" y="-87.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s0mT2lltDAjoIGX7IzYP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.855;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s0mT2lltDAjoIGX7IzYP-3" target="cD0JJt_eKA0-qdBhpxKM-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3060" y="-58" />
+              <mxPoint x="3060" y="1919" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s0mT2lltDAjoIGX7IzYP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s0mT2lltDAjoIGX7IzYP-0" target="cD0JJt_eKA0-qdBhpxKM-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3010" y="160" />
+              <mxPoint x="3010" y="1880" />
+              <mxPoint x="2540" y="1880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
