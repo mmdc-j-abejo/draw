@@ -1,29 +1,53 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.8">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="860" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1012" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nQisF_JksVel5cSUi8cc-50" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="579" y="257" width="230" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="nQisF_JksVel5cSUi8cc-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="599" y="287" width="180" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="nQisF_JksVel5cSUi8cc-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nQisF_JksVel5cSUi8cc-41" target="nQisF_JksVel5cSUi8cc-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nQisF_JksVel5cSUi8cc-41" value="Apache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="419" y="442" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nQisF_JksVel5cSUi8cc-42" value="FinmarkFrontUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="629" y="317" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nQisF_JksVel5cSUi8cc-43" value="Order Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="629" y="397" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nQisF_JksVel5cSUi8cc-44" value="Inventory Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="629" y="477" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nQisF_JksVel5cSUi8cc-45" value="Dashboard Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="629" y="557" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nQisF_JksVel5cSUi8cc-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nQisF_JksVel5cSUi8cc-46" target="nQisF_JksVel5cSUi8cc-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nQisF_JksVel5cSUi8cc-46" value="Browser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="239" y="442" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nQisF_JksVel5cSUi8cc-51" value="Tomcat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="579" y="657" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nQisF_JksVel5cSUi8cc-53" value="WAR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="599" y="287" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nQisF_JksVel5cSUi8cc-56" value="MySQL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="869" y="447" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nQisF_JksVel5cSUi8cc-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nQisF_JksVel5cSUi8cc-50" target="nQisF_JksVel5cSUi8cc-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQisF_JksVel5cSUi8cc-60" value="Finmark Web Application Architecture&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="239" y="190" width="430" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
